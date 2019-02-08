@@ -14,12 +14,15 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body class="bg-grey-lightest">
-{{-- @guest
+<body>
+Larabank
+
+@guest
     <a href="{{ route('login') }}">{{ __('Login') }}</a>
     <a href="{{ route('register') }}">{{ __('Register') }}</a>
 @else
@@ -35,7 +38,7 @@
         </form>
     </div>
 
-@endguest --}}
+@endguest
 <main>
     @yield('content')
 </main>
