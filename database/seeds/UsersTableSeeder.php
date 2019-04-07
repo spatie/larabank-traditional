@@ -8,8 +8,8 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         factory(User::class)->create([
-            'name' => 'Freek',
-            'email' => 'freek@spatie.be',
+            'name' => 'user',
+            'email' => 'user@larabank.com',
         ]);
     }
 }
