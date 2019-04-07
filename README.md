@@ -4,6 +4,17 @@
 
 This is an example app used in the documentation of [laravel-event-projector](https://docs.spatie.be/laravel-event-projector)
 
+## Getting started
+
+- Clone the repo
+- copy `env.example` to `.env`
+- set the `DB_` environment variables in `.env` to your liking
+- create a database with the name specified in `DB_DATABASE`
+- `composer install`
+- `yarn`, `yarn run dev` (or the npm equivalents)
+- migrate and seed the database with `php artisan migrate:fresh --seed`
+- you can now loging in with user "user@larabank.com", password "secret"
+
 ## Credits
 
 - [Freek Van der Herten](https://github.com/freekmurze)
