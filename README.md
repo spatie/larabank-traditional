@@ -1,5 +1,7 @@
 # Larabank built traditionally 📽
 
+![Larabank accounts page](https://spatie.github.io/larabank-traditional/)
+
 This is an example app used in the documentation of [laravel-event-projector](https://docs.spatie.be/laravel-event-projector)
 
 ## Credits
