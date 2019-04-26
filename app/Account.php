@@ -13,8 +13,6 @@ class Account extends Model
         $this->balance += $amount;
 
         $this->save();
-
-        return;
     }
 
     public function subtractMoney(int $amount)
@@ -22,7 +20,5 @@ class Account extends Model
         $this->balance -= $amount;
 
         $this->save();
-
-        return;
     }
 }
