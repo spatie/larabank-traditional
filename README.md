@@ -21,7 +21,7 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 - `composer install`
 - `yarn`, `yarn run dev` (or the npm equivalents)
 - migrate and seed the database with `php artisan migrate:fresh --seed`
-- you can now loging in with user "user@larabank.com", password "secret"
+- you can now logging in with user "user@larabank.com", password "password"
 
 ## Credits
 
