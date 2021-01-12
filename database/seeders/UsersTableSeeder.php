@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\User;
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class UsersTableSeeder extends Seeder
@@ -11,6 +11,7 @@ class UsersTableSeeder extends Seeder
     {
         User::factory()->create([
             'name' => 'user',
+            'password' => bcrypt('password'),
             'email' => 'user@larabank.com',
         ]);
     }
